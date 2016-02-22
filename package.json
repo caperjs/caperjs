@@ -1,0 +1,17 @@
+{
+  "name": "noctemis",
+  "version": "1.0.0",
+  "description": "Noctemis Reborn",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-rename": "^1.2.2",
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

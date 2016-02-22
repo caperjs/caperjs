@@ -1,0 +1,22 @@
+@import "layouts";
+
+feed {
+    
+    main {
+        h1 {
+            @extend .padding-bottom;
+            @extend .margin-bottom;
+            @extend .border-bottom;
+        }
+    }
+    article {
+        background-color: $light-grey;
+        border-radius: $unit;
+    }
+    figure {
+        @extend .margin-slates;
+    }
+    p {
+        font-size: $small-font;
+    }
+}

@@ -1,0 +1,13 @@
+<link href="/app/styles/min/social.css" rel="stylesheet">
+<script src="/app/templates/social/social.js"></script>
+<footer data-template="social" class="container-fluid padding-bottom">
+    <script data-script="social" type="text/x-handlebars-template">
+    <h1 class="padding-left">{{social.title}}</h1>
+    <figure class="col-sm-6">
+    {{#each social.socialMedia}}
+        <a href="{{url}}"><img src="{{icon}}" style="max-height:60px; margin: auto;"></a>
+        {{#if caption}}<figcaption>{{caption}}</figcaption>{{/if}}
+    {{/each}}
+    </figure>
+    </script>
+</footer>

@@ -1,0 +1,19 @@
+/*--colors--*/
+$light-grey : #f1f1f1;
+$dark-grey : #333333;
+
+/*--measurements--*/
+$unit : 15px;
+
+/*--fonts--*/
+@font-face {
+    font-family: HelloGoodbye;
+    src: url("/resources/fonts/hellogoodbye.otf") format("opentype");
+    font-weight: 900;
+}
+$small-font : 24px;
+$medium-font: 32px;
+$large-font : 40px;
+$xlarge-font : 48px;
+$xxlarge-font : 56px;
+$xxxlarge-font : 64px;

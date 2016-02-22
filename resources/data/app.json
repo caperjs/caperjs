@@ -1,0 +1,17 @@
+{
+    "websiteName" : "noctemis",
+    "headerURL" : "https://www.kickstarter.com/projects/643653261/noctemis",
+    "pages" : [
+        "updates",
+        "store",
+        "info"
+    ],
+    "social" : {
+        "title" : "Get Social",
+        "socialMedia" : [
+            { "icon" : "/resources/images/social/kickstarter.png", "url" : "https://www.kickstarter.com/projects/643653261/noctemis" },
+            { "icon" : "/resources/images/social/facebook.png", "url" : "https://www.facebook.com/noctemisreborn/?ref=hl" }
+        ]
+    }
+    
+}

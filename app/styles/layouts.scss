@@ -1,0 +1,101 @@
+@import "defaults";
+
+.margin {
+    margin: $unit;
+}
+.margin-none {
+    margin: 0px;
+}
+.margin-sides {
+    @extend .margin;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.margin-slates {
+    @extend .margin;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.margin-left {
+    @extend .margin-sides;
+    margin-right: 0px;
+}
+.margin-right {
+    @extend .margin-sides;
+    margin-left: 0px;
+}
+.margin-top {
+    @extend .margin-slates;
+    margin-bottom: 0px;
+}
+.margin-bottom {
+    @extend .margin-slates;
+    margin-top: 0px;
+}
+
+.padding {
+    padding: $unit;
+}
+.padding-none {
+    padding: 0px;
+}
+.padding-sides {
+    @extend .padding;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.padding-slates {
+    @extend .padding;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.padding-left {
+    @extend .padding-sides;
+    padding-right: 0px;
+}
+.padding-right {
+    @extend .padding-sides;
+    padding-left: 0px;
+}
+.padding-top {
+    @extend .padding-slates;
+    padding-bottom: 0px;
+}
+.padding-bottom {
+    @extend .padding-slates;
+    padding-top: 0px;
+}
+
+.border {
+    border: 1px solid $light-grey;
+}
+.border-sides {
+    @extend .border;
+    border-top: none;
+    border-bottom: none;
+}
+.border-slates {
+    @extend .border;
+    border-left: none;
+    border-right: none;
+}
+.border-left {
+    @extend .border-sides;
+    border-right: v;
+}
+.border-right {
+    @extend .border-sides;
+    border-left: none;
+}
+.border-top {
+    @extend .border-slates;
+    border-bottom: none;
+}
+.border-bottom {
+    @extend .border-slates;
+    border-top: none;
+}
+
+page {
+    display: none;
+}

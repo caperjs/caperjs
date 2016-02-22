@@ -1,0 +1,18 @@
+@import "layouts";
+
+social {
+    footer {
+        background-color: $dark-grey;
+        color: $light-grey;
+        @extend .margin-top;
+        
+        img:hover {
+            @extend .border;
+            border-width: 3px;
+            border-radius: $unit;
+        }
+        figcaption {
+            
+        }
+    }
+}

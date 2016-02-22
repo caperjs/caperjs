@@ -1,0 +1,51 @@
+<html>
+<head>
+    <!-- jQuery-->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    
+    <!-- Handlebars-->
+    <script src="/bower_components/handlebars/handlebars.min.js"></script>
+    
+    <!-- bootstrap -->
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <!-- app -->
+    <script src="app.js"></script>
+    <link href="/app/styles/min/layouts.css" rel="stylesheet">
+</head>
+
+<body style="font-family: HelloGoodbye">
+  
+  <!--Make templates work-->
+  <script src="/app/templates/templates.js"></script>
+  
+  <!-- navbar -->
+  <navbar></navbar>
+  
+  <page data-page="updates" style="display:block;">
+    <!-- carousel -->
+    <carousel></carousel>
+    <!-- feed -->
+    <feed></feed>
+  </page>
+  
+  <page data-page="store">
+    <!-- hero -->
+    <hero></hero>
+  </page>
+  
+  <page data-page="info">
+    <!-- hero -->
+    <hero></hero>
+  </page>
+  
+  <!-- social -->
+  <social></social>
+  
+</body>
+</html>

@@ -1,0 +1,25 @@
+<script src="/app/templates/feed/feed.js"></script>
+<link href="/app/styles/min/feed.css" rel="stylesheet">
+<div data-template="feed" class="container">
+    <script data-script="feed" type="text/x-handlebars-template">
+    {{#each this}}
+    <section class="row">
+        <h1>{{title}}</h1>
+        {{#each articles}}
+        <article class="col-sm-12">
+            <h2>{{title}}</h2>
+            {{#each images}}
+            <figure class="col-sm-6">
+                <img src="{{image}}" style="max-width: 100%;">
+                {{#if caption}}<figcaption>{{caption}}</figcaption>{{/if}}
+            </figure>
+            {{/each}}
+            <p>
+                {{description}}
+            </p>
+        </article>
+        {{/each}}
+    </section>
+    {{/each}}
+    </script>
+</div>
