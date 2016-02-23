@@ -3,14 +3,14 @@
     <script data-script="carousel" type="text/x-handlebars-template">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        {{#each this}}
+        {{#each this.carousel.images}}
         <li data-target="[data-template='carousel']" data-slide-to="{{@index}}" {{#if @first}}class="active"{{/if}}></li>
         {{/each}}
       </ol>
     
       <!-- Wrapper for slides -->
       <section class="carousel-inner" role="listbox" style="height: 300px;">
-        {{#each this}}
+        {{#each this.carousel.images}}
         <figure class="item {{#if @first}}active{{/if}}">
           <img src="{{image}}" style="margin: auto;">
           <figcaption>{{caption}}</figcaption>

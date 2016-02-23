@@ -2,14 +2,12 @@
 
 social {
     footer {
-        background-color: $dark-grey;
+        background-color: black;
         color: $light-grey;
-        @extend .margin-top;
         
         img:hover {
-            @extend .border;
-            border-width: 3px;
-            border-radius: $unit;
+            background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+    		opacity: .6; 
         }
         figcaption {
             

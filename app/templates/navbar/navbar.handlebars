@@ -7,7 +7,7 @@
     </header>
     <ul class="nav navbar-nav">
         {{#each this.pages}}
-        <li {{#if @first}}class="active"{{/if}}><a href="#" onmouseup="changePage('{{this}}');">{{this}}</a></li>
+        <li {{#if @first}}class="active"{{/if}} data-navigation="{{@key}}"><a href="#" onmouseup="changePage('{{@key}}');">{{@key}}</a></li>
         {{/each}}
     </ul>
     </script>

@@ -1,24 +1,19 @@
 $( function () {
     
-    var data = [
+    var path = appJSONPath;
+    var feedData = '';
+    $.getJSON( path, function(data) {
+        feedData = data;
+    }).done(function() {
+        for( var page in feedData.pages )
         {
-            title : 'Updates',
-            articles : [
-                {
-                    title : 'February 10th 12:05am',
-                    images : [
-                        { image : '/resources/images/updates/feb10/am/1.png' },
-                        { image : '/resources/images/updates/feb10/am/2.png' },
-                        { image : '/resources/images/updates/feb10/am/3.png' },
-                        { image : '/resources/images/updates/feb10/am/4.png' }
-                    ],
-                    description: 'In game art style finally finished. Working Demo level shown'
-                }
-            ]
+            if( $('[data-page="' + page + '"]').find('[data-script="feed"]').html() )
+            {
+                var template = Handlebars.compile( $('[data-page="' + page + '"]').find('[data-script="feed"]').html() );
+                var html = template( feedData.pages[page] );
+                $('[data-page="' + page + '"]').find('[data-template="feed"]').html(html);
+            }
         }
-    ];
+    });
     
-    var template = Handlebars.compile( $('[data-script="feed"]').html() );
-    var html = template( data )
-    $('[data-template="feed"]').html(html);
 });

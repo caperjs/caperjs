@@ -5,7 +5,7 @@
   font-family: HelloGoodbye;
   src: url("/resources/fonts/hellogoodbye.otf") format("opentype");
   font-weight: 900; }
-.margin, .margin-sides, .margin-left, .margin-right, .margin-slates, .margin-top, social footer, .margin-bottom {
+.margin, .margin-sides, .margin-left, .margin-right, .margin-slates, .margin-top, .margin-bottom {
   margin: 15px; }
 
 .margin-none {
@@ -15,7 +15,7 @@
   margin-top: 0px;
   margin-bottom: 0px; }
 
-.margin-slates, .margin-top, social footer, .margin-bottom {
+.margin-slates, .margin-top, .margin-bottom {
   margin-left: 0px;
   margin-right: 0px; }
 
@@ -25,7 +25,7 @@
 .margin-right {
   margin-left: 0px; }
 
-.margin-top, social footer {
+.margin-top {
   margin-bottom: 0px; }
 
 .margin-bottom {
@@ -57,7 +57,7 @@
 .padding-bottom {
   padding-top: 0px; }
 
-.border, .border-sides, .border-left, .border-right, .border-slates, .border-top, .border-bottom, social footer img:hover {
+.border, .border-sides, .border-left, .border-right, .border-slates, .border-top, .border-bottom {
   border: 1px solid #f1f1f1; }
 
 .border-sides, .border-left, .border-right {
@@ -84,8 +84,8 @@ page {
   display: none; }
 
 social footer {
-  background-color: #333333;
+  background-color: black;
   color: #f1f1f1; }
   social footer img:hover {
-    border-width: 3px;
-    border-radius: 15px; }
+    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: .6; }

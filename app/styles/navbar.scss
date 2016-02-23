@@ -2,18 +2,50 @@
 
 navbar {
     
-    .navbar-brand {
-        font-size: $large-font;
-        color: $dark-grey;
-    }
-    .navbar-nav {
-        font-size: $small-font;
-        a {
-            color: $dark-grey;
-        }
-        a:hover {
-            background-color: $dark-grey;
+    .navbar {
+        
+        background-color: black;
+        border-color: black;
+        border-radius: 0px;
+        box-shadow: 0px 5px 5px;
+        z-index: 10;
+    
+        .navbar-brand {
+            font-size: $large-font;
             color: $light-grey;
+        }
+        .navbar-header {
+            font-size: $small-font;
+            a {
+                color: $light-grey;
+            }
+            a:hover {
+                color: rgba(255,255,255,.35);
+                text-shadow: 3px 3px white;
+            }
+        }
+        .navbar-nav {
+            font-size: $small-font;
+            a {
+                color: $light-grey;
+            }
+            a:hover {
+                color: rgba(255,255,255,.35);
+                text-shadow: 3px 3px white;
+            }
+            
+            .active {
+                
+                a {
+                    background-color: white;
+                    color: black;
+                }
+                a:hover {
+                    background-color: white;
+                    color: rgba(0,0,0,.35);
+                    text-shadow: 3px 3px black;
+                }
+            }
         }
     }
     

@@ -83,13 +83,33 @@
 page {
   display: none; }
 
-navbar .navbar-brand {
-  font-size: 40px;
-  color: #333333; }
-navbar .navbar-nav {
-  font-size: 24px; }
-  navbar .navbar-nav a {
-    color: #333333; }
-  navbar .navbar-nav a:hover {
-    background-color: #333333;
+navbar .navbar {
+  background-color: black;
+  border-color: black;
+  border-radius: 0px;
+  box-shadow: 0px 5px 5px;
+  z-index: 10; }
+  navbar .navbar .navbar-brand {
+    font-size: 40px;
     color: #f1f1f1; }
+  navbar .navbar .navbar-header {
+    font-size: 24px; }
+    navbar .navbar .navbar-header a {
+      color: #f1f1f1; }
+    navbar .navbar .navbar-header a:hover {
+      color: rgba(255, 255, 255, 0.35);
+      text-shadow: 3px 3px white; }
+  navbar .navbar .navbar-nav {
+    font-size: 24px; }
+    navbar .navbar .navbar-nav a {
+      color: #f1f1f1; }
+    navbar .navbar .navbar-nav a:hover {
+      color: rgba(255, 255, 255, 0.35);
+      text-shadow: 3px 3px white; }
+    navbar .navbar .navbar-nav .active a {
+      background-color: white;
+      color: black; }
+    navbar .navbar .navbar-nav .active a:hover {
+      background-color: white;
+      color: rgba(0, 0, 0, 0.35);
+      text-shadow: 3px 3px black; }
