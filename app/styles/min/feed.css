@@ -5,7 +5,7 @@
   font-family: HelloGoodbye;
   src: url("/resources/fonts/hellogoodbye.otf") format("opentype");
   font-weight: 900; }
-.margin, .margin-sides, .margin-left, .margin-right, .margin-slates, .margin-top, .margin-bottom, feed main h1, feed figure {
+.margin, .margin-sides, .margin-left, .margin-right, .margin-slates, .margin-top, .margin-bottom, feed figure {
   margin: 15px; }
 
 .margin-none {
@@ -15,7 +15,7 @@
   margin-top: 0px;
   margin-bottom: 0px; }
 
-.margin-slates, .margin-top, .margin-bottom, feed main h1, feed figure {
+.margin-slates, .margin-top, .margin-bottom, feed figure {
   margin-left: 0px;
   margin-right: 0px; }
 
@@ -28,10 +28,10 @@
 .margin-top {
   margin-bottom: 0px; }
 
-.margin-bottom, feed main h1 {
+.margin-bottom {
   margin-top: 0px; }
 
-.padding, .padding-sides, .padding-left, .padding-right, .padding-slates, .padding-top, .padding-bottom, feed main h1 {
+.padding, .padding-sides, .padding-left, .padding-right, .padding-slates, .padding-top, .padding-bottom {
   padding: 15px; }
 
 .padding-none {
@@ -41,7 +41,7 @@
   padding-top: 0px;
   padding-bottom: 0px; }
 
-.padding-slates, .padding-top, .padding-bottom, feed main h1 {
+.padding-slates, .padding-top, .padding-bottom {
   padding-left: 0px;
   padding-right: 0px; }
 
@@ -54,17 +54,17 @@
 .padding-top {
   padding-bottom: 0px; }
 
-.padding-bottom, feed main h1 {
+.padding-bottom {
   padding-top: 0px; }
 
-.border, .border-sides, .border-left, .border-right, .border-slates, .border-top, .border-bottom, feed main h1 {
+.border, .border-sides, .border-left, .border-right, .border-slates, .border-top, .border-bottom {
   border: 1px solid #f1f1f1; }
 
 .border-sides, .border-left, .border-right {
   border-top: none;
   border-bottom: none; }
 
-.border-slates, .border-top, .border-bottom, feed main h1 {
+.border-slates, .border-top, .border-bottom {
   border-left: none;
   border-right: none; }
 
@@ -77,14 +77,19 @@
 .border-top {
   border-bottom: none; }
 
-.border-bottom, feed main h1 {
+.border-bottom {
   border-top: none; }
 
 page {
   display: none; }
 
+feed h1, feed h2, feed h3, feed h4, feed h5 {
+  color: black; }
 feed article {
-  background-color: #f1f1f1;
-  border-radius: 15px; }
+  background-color: white;
+  box-shadow: 0px 0px 15px;
+  border-radius: 15px;
+  margin-bottom: 15px; }
 feed p {
-  font-size: 24px; }
+  font-size: 24px;
+  color: black; }

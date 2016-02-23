@@ -18,6 +18,11 @@ $.get( "/app/templates/navbar/navbar.handlebars", function( data ) {
     $('navbar').append( data );
 });
 
+/*--Products--*/
+$.get( "/app/templates/products/products.handlebars", function( data ) {
+    $('products').append( data );
+});
+
 /*--Social--*/
 $.get( "/app/templates/social/social.handlebars", function( data ) {
     $('social').append( data );

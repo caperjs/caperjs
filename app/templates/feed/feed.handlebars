@@ -4,17 +4,16 @@
     <script data-script="feed" type="text/x-handlebars-template">
     {{#each this.feed}}
     <section class="row">
-        <h1>{{title}}</h1>
         {{#each articles}}
         <article class="col-sm-12">
-            <h2>{{title}}</h2>
+            <h2 class="padding-sides">{{title}}</h2>
             {{#each images}}
             <figure class="col-sm-6">
                 <img src="{{image}}" style="max-width: 100%;">
                 {{#if caption}}<figcaption>{{caption}}</figcaption>{{/if}}
             </figure>
             {{/each}}
-            <p>
+            <p class="padding-sides">
                 {{description}}
             </p>
         </article>

@@ -7,7 +7,6 @@
             "subTitle" : "",
             "feed" : [
                 {
-                    "title" : "Game Dev Progress",
                     "articles" : [
                         {
                             "title" : "February 10th 12:05am",
@@ -28,7 +27,6 @@
                     { "image" : "/resources/images/artwork/Original-1024x660.jpg", "caption" : "Noctemis" }
                 ]
             }
-            
         },
         "store" : {
             "title" : "Store",
@@ -44,6 +42,69 @@
             { "icon" : "/resources/images/social/kickstarter.png", "url" : "https://www.kickstarter.com/projects/643653261/noctemis" },
             { "icon" : "/resources/images/social/facebook.png", "url" : "https://www.facebook.com/noctemisreborn/?ref=hl" }
         ]
+    },
+    "products" : {
+        "title" : "Noctemis Merchandise",
+        "categories" : [
+            {
+                "title" : "Books",
+                "products" : [
+                    {
+                        "title" : "Noctemis Official Concept Art Book",
+                        "description" : "",
+                        "details" : "",
+                        "price" : "",
+                        "shippingCost" : "",
+                        "images" : [
+                            { "image" : "/resources/images/social/kickstarter.png", "description" : ""},
+                            { "image" : "/resources/images/social/facebook.png", "description" : ""}
+                        ]
+                    }
+                ]
+            },
+            {
+                "title" : "Apparel",
+                "products" : [
+                    {
+                        "title" : "Noctemis Official T-Shirt",
+                        "description" : "",
+                        "details" : "",
+                        "price" : "",
+                        "shippingCost" : "",
+                        "images" : [
+                            { "image" : "/resources/images/social/kickstarter.png", "description" : ""},
+                            { "image" : "/resources/images/social/facebook.png", "description" : ""}
+                        ]
+                    },
+                    {
+                        "title" : "Noctemis Official Sweatshirt",
+                        "description" : "",
+                        "details" : "",
+                        "price" : "",
+                        "shippingCost" : "",
+                        "images" : [
+                            { "image" : "/resources/images/social/kickstarter.png", "description" : ""},
+                            { "image" : "/resources/images/social/facebook.png", "description" : ""}
+                        ]
+                    }
+                ]
+            },
+            {
+                "title" : "Games",
+                "products" : [
+                    {
+                        "title" : "Noctemis The Video Game",
+                        "description" : "",
+                        "details" : "",
+                        "price" : "",
+                        "shippingCost" : "",
+                        "images" : [
+                            { "image" : "/resources/images/social/kickstarter.png", "description" : ""},
+                            { "image" : "/resources/images/social/facebook.png", "description" : ""}
+                        ]
+                    }
+                ]
+            }
+        ]
     }
-    
 }

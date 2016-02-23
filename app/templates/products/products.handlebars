@@ -1,0 +1,19 @@
+<link href="/app/styles/min/products.css" rel="stylesheet">
+<script src="/app/templates/products/products.js"></script>
+<section data-template="products" class="container-fluid">
+    <script data-script="products" type="text/x-handlebars-template">
+    <article class="row">
+        <h1 class="padding-left">{{products.title}}</h1>
+        {{#each products.categories}}
+            <ul class="col-sm-12">
+            <h2 class="padding-left">{{this.title}}</h2>
+            {{#each this.products}}
+                <li class="col-sm-4">
+                <h3 class="padding-left">{{this.title}}</h3>
+                </li>
+            {{/each}}
+            </ul>
+        {{/each}}
+    </article>
+    </script>
+</section>
