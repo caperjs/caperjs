@@ -51,10 +51,10 @@
                 "products" : [
                     {
                         "title" : "Noctemis Official Concept Art Book",
-                        "description" : "",
-                        "details" : "",
-                        "price" : "",
-                        "shippingCost" : "",
+                        "description" : "test",
+                        "details" : "test",
+                        "price" : "12",
+                        "shippingCost" : "3",
                         "images" : [
                             { "image" : "/resources/images/social/kickstarter.png", "description" : ""},
                             { "image" : "/resources/images/social/facebook.png", "description" : ""}
@@ -67,10 +67,10 @@
                 "products" : [
                     {
                         "title" : "Noctemis Official T-Shirt",
-                        "description" : "",
-                        "details" : "",
-                        "price" : "",
-                        "shippingCost" : "",
+                        "description" : "test",
+                        "details" : "test",
+                        "price" : "12",
+                        "shippingCost" : "3",
                         "images" : [
                             { "image" : "/resources/images/social/kickstarter.png", "description" : ""},
                             { "image" : "/resources/images/social/facebook.png", "description" : ""}
@@ -78,10 +78,10 @@
                     },
                     {
                         "title" : "Noctemis Official Sweatshirt",
-                        "description" : "",
-                        "details" : "",
-                        "price" : "",
-                        "shippingCost" : "",
+                        "description" : "test",
+                        "details" : "test",
+                        "price" : "12",
+                        "shippingCost" : "3",
                         "images" : [
                             { "image" : "/resources/images/social/kickstarter.png", "description" : ""},
                             { "image" : "/resources/images/social/facebook.png", "description" : ""}
@@ -94,10 +94,10 @@
                 "products" : [
                     {
                         "title" : "Noctemis The Video Game",
-                        "description" : "",
-                        "details" : "",
-                        "price" : "",
-                        "shippingCost" : "",
+                        "description" : "test",
+                        "details" : "test",
+                        "price" : "12",
+                        "shippingCost" : "3",
                         "images" : [
                             { "image" : "/resources/images/social/kickstarter.png", "description" : ""},
                             { "image" : "/resources/images/social/facebook.png", "description" : ""}

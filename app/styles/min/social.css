@@ -5,57 +5,35 @@
   font-family: HelloGoodbye;
   src: url("/resources/fonts/hellogoodbye.otf") format("opentype");
   font-weight: 900; }
-.margin, .margin-sides, .margin-left, .margin-right, .margin-slates, .margin-top, .margin-bottom {
-  margin: 15px; }
-
 .margin-none {
   margin: 0px; }
 
-.margin-sides, .margin-left, .margin-right {
-  margin-top: 0px;
-  margin-bottom: 0px; }
+.margin-left, .margin-sides, .margin {
+  margin-left: 15px; }
 
-.margin-slates, .margin-top, .margin-bottom {
-  margin-left: 0px;
-  margin-right: 0px; }
+.margin-right, .margin-sides, .margin {
+  margin-right: 15px; }
 
-.margin-left {
-  margin-right: 0px; }
+.margin-top, .margin-slates, .margin {
+  margin-top: 15px; }
 
-.margin-right {
-  margin-left: 0px; }
-
-.margin-top {
-  margin-bottom: 0px; }
-
-.margin-bottom {
-  margin-top: 0px; }
-
-.padding, .padding-sides, .padding-left, .padding-right, .padding-slates, .padding-top, .padding-bottom {
-  padding: 15px; }
+.margin-bottom, .margin-slates, .margin {
+  margin-bottom: 15px; }
 
 .padding-none {
   padding: 0px; }
 
-.padding-sides, .padding-left, .padding-right {
-  padding-top: 0px;
-  padding-bottom: 0px; }
+.padding-left, .padding-sides, .padding {
+  padding-left: 15px; }
 
-.padding-slates, .padding-top, .padding-bottom {
-  padding-left: 0px;
-  padding-right: 0px; }
+.padding-right, .padding-sides, .padding {
+  padding-right: 15px; }
 
-.padding-left {
-  padding-right: 0px; }
+.padding-top, .padding-slates, .padding {
+  padding-top: 15px; }
 
-.padding-right {
-  padding-left: 0px; }
-
-.padding-top {
-  padding-bottom: 0px; }
-
-.padding-bottom {
-  padding-top: 0px; }
+.padding-bottom, .padding-slates, .padding {
+  padding-bottom: 15px; }
 
 .border, .border-sides, .border-left, .border-right, .border-slates, .border-top, .border-bottom {
   border: 1px solid #f1f1f1; }
@@ -69,7 +47,7 @@
   border-right: none; }
 
 .border-left {
-  border-right: v; }
+  border-right: none; }
 
 .border-right {
   border-left: none; }

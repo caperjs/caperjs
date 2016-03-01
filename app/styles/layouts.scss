@@ -1,101 +1,90 @@
 @import "defaults";
 
+/*---Margins---*/
 .margin {
-    margin: $unit;
+    @extend .margin-sides;
+    @extend .margin-slates;
 }
 .margin-none {
     margin: 0px;
 }
 .margin-sides {
-    @extend .margin;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    @extend .margin-left;
+    @extend .margin-right;
 }
 .margin-slates {
-    @extend .margin;
-    margin-left: 0px;
-    margin-right: 0px;
+    @extend .margin-top;
+    @extend .margin-bottom;
 }
 .margin-left {
-    @extend .margin-sides;
-    margin-right: 0px;
+    margin-left: $unit;
 }
 .margin-right {
-    @extend .margin-sides;
-    margin-left: 0px;
+    margin-right: $unit;
 }
 .margin-top {
-    @extend .margin-slates;
-    margin-bottom: 0px;
+    margin-top: $unit;
 }
 .margin-bottom {
-    @extend .margin-slates;
-    margin-top: 0px;
+    margin-bottom: $unit;
 }
 
+/*---Padding---*/
 .padding {
-    padding: $unit;
+    @extend .padding-sides;
+    @extend .padding-slates;
 }
 .padding-none {
     padding: 0px;
 }
 .padding-sides {
-    @extend .padding;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    @extend .padding-left;
+    @extend .padding-right;
 }
 .padding-slates {
-    @extend .padding;
-    padding-left: 0px;
-    padding-right: 0px;
+    @extend .padding-top;
+    @extend .padding-bottom;
 }
 .padding-left {
-    @extend .padding-sides;
-    padding-right: 0px;
+    padding-left: $unit;
 }
 .padding-right {
-    @extend .padding-sides;
-    padding-left: 0px;
+    padding-right: $unit;
 }
 .padding-top {
-    @extend .padding-slates;
-    padding-bottom: 0px;
+    padding-top: $unit;
 }
 .padding-bottom {
-    @extend .padding-slates;
-    padding-top: 0px;
+    padding-bottom: $unit;
 }
 
+/*---Borders---*/
 .border {
-    border: 1px solid $light-grey;
+  @extend .border-sides;
+  @extend .border-slates;
 }
 .border-sides {
-    @extend .border;
-    border-top: none;
-    border-bottom: none;
+  @extend .border-left;
+  @extend .border-right;
 }
 .border-slates {
-    @extend .border;
-    border-left: none;
-    border-right: none;
+  @extend .border-top;
+  @extend .border-bottom;
 }
 .border-left {
-    @extend .border-sides;
-    border-right: v;
+  border-left: 1px solid $light-grey;
 }
 .border-right {
-    @extend .border-sides;
-    border-left: none;
+  border-right: 1px solid $light-grey;
 }
 .border-top {
-    @extend .border-slates;
-    border-bottom: none;
+  border-top: 1px solid $light-grey;
 }
 .border-bottom {
-    @extend .border-slates;
-    border-top: none;
+  border-bottom: 1px solid $light-grey;
 }
 
+/*---Page Controls---*/
 page {
     display: none;
 }
