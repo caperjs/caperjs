@@ -3,6 +3,11 @@ $.get( "/app/templates/carousel/carousel.handlebars", function( data ) {
     $('carousel').append( data );
 });
 
+/*--Content--*/
+$.get( "/app/templates/content/content.handlebars", function( data ) {
+    $('content').append( data );
+});
+
 /*--Feed--*/
 $.get( "/app/templates/feed/feed.handlebars", function( data ) {
     $('feed').append( data );

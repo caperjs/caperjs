@@ -19,7 +19,7 @@
     <link href="/app/styles/min/layouts.css" rel="stylesheet">
 </head>
 
-<body style="font-family: HelloGoodbye">
+<body style="font-family: Roboto-Thin; background-color: #D499B9;">
   
   <!--Make templates work-->
   <script src="/app/templates/templates.js"></script>
@@ -27,9 +27,14 @@
   <!-- navbar -->
   <navbar></navbar>
   
-  <page data-page="updates" style="display:block;">
-    <!-- carousel -->
-    <carousel></carousel>
+  <page data-page="home" style="display:block;">
+    <!-- hero -->
+    <hero></hero>
+    <!-- content -->
+    <content></content>
+  </page>
+  
+  <page data-page="documentation">
     <!-- hero -->
     <hero></hero>
     <!-- feed -->
@@ -41,11 +46,6 @@
     <hero></hero>
     <!-- products -->
     <products></products>
-  </page>
-  
-  <page data-page="info">
-    <!-- hero -->
-    <hero></hero>
   </page>
   
   <!-- social -->

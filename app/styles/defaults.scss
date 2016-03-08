@@ -1,16 +1,27 @@
 /*--colors--*/
 $light-grey : #f1f1f1;
 $dark-grey : #333333;
+$light-primary-color: #FFE6F4;
+$primary-color : #D499B9;
+$secondary-color : #9055A2;
+$tertiary-color : #2E294E;
+$quaternary-color : #011638;
 
 /*--measurements--*/
 $unit : 15px;
 
 /*--fonts--*/
 @font-face {
-    font-family: HelloGoodbye;
-    src: url("/resources/fonts/hellogoodbye.otf") format("opentype");
-    font-weight: 900;
+    font-family: Roboto-Regular;
+    src: url("/resources/fonts/Roboto-Regular.ttf") format("truetype");
 }
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("/resources/fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+$xxsmall-font : 8px;
+$xsmall-font : 16px;
 $small-font : 24px;
 $medium-font: 32px;
 $large-font : 40px;

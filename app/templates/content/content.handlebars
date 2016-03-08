@@ -1,0 +1,25 @@
+<script src="/app/templates/content/content.js"></script>
+<link href="/app/styles/min/content.css" rel="stylesheet">
+<div data-template="content" class="container-fluid">
+    <script data-script="content" type="text/x-handlebars-template">
+    {{#each this.content}}
+    <section class="row">
+        {{#each articles}}
+        <article class="col-sm-12">
+            <h2 class="padding-sides">{{title}}</h2>
+            {{#each images}}
+            <figure class="col-sm-12">
+                <img src="{{image}}" style="max-width: 100%;">
+                {{#if example}}<p><kbd>{{example}}</kbd></p>{{/if}}
+                {{#if caption}}<figcaption>{{caption}}</figcaption>{{/if}}
+            </figure>
+            {{/each}}
+            <p class="padding-sides">
+                {{description}}
+            </p>
+        </article>
+        {{/each}}
+    </section>
+    {{/each}}
+    </script>
+</div>

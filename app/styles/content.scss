@@ -1,0 +1,38 @@
+@import "layouts";
+
+content {
+    
+    h1,h2,h3,h4,h5 {
+        font-family: roboto-regular;
+        color: $tertiary-color;
+        text-decoration: underline;
+    }
+    article {
+        background-color: white;
+    }
+    figure {
+        
+        @extend .margin-slates;
+        background-color: $light-primary-color;
+        @extend .border-slates;
+        
+        img {
+            @extend .margin-slates;
+        }
+        p {
+            @extend .margin-bottom;
+        }
+        figcaption {
+            font-family: roboto-regular;
+            color: $quaternary-color;
+            font-size: $xsmall-font;
+            @extend .margin-bottom;
+        }
+        
+    }
+    p {
+        font-size: $xsmall-font;
+        color: $tertiary-color;
+        font-family: roboto-regular;
+    }
+}

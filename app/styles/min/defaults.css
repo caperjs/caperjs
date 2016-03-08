@@ -2,6 +2,8 @@
 /*--measurements--*/
 /*--fonts--*/
 @font-face {
-  font-family: HelloGoodbye;
-  src: url("/resources/fonts/hellogoodbye.otf") format("opentype");
-  font-weight: 900; }
+  font-family: Roboto-Regular;
+  src: url("/resources/fonts/Roboto-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("/resources/fonts/Roboto-Thin.ttf") format("truetype"); }

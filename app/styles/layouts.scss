@@ -72,16 +72,16 @@
   @extend .border-bottom;
 }
 .border-left {
-  border-left: 1px solid $light-grey;
+  border-left: 1px solid $primary-color;
 }
 .border-right {
-  border-right: 1px solid $light-grey;
+  border-right: 1px solid $primary-color;
 }
 .border-top {
-  border-top: 1px solid $light-grey;
+  border-top: 1px solid $primary-color;
 }
 .border-bottom {
-  border-bottom: 1px solid $light-grey;
+  border-bottom: 1px solid $primary-color;
 }
 
 /*---Page Controls---*/

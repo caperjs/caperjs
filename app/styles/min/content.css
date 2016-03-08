@@ -17,10 +17,10 @@
 .margin-right, .margin-sides, .margin {
   margin-right: 15px; }
 
-.margin-top, .margin-slates, .margin {
+.margin-top, .margin-slates, .margin, content figure, content figure img {
   margin-top: 15px; }
 
-.margin-bottom, .margin-slates, .margin {
+.margin-bottom, .margin-slates, .margin, content figure, content figure img, content figure p, content figure figcaption {
   margin-bottom: 15px; }
 
 /*---Padding---*/
@@ -46,41 +46,29 @@
 .border-right, .border-sides, .border {
   border-right: 1px solid #D499B9; }
 
-.border-top, .border-slates, .border {
+.border-top, .border-slates, .border, content figure {
   border-top: 1px solid #D499B9; }
 
-.border-bottom, .border-slates, .border {
+.border-bottom, .border-slates, .border, content figure {
   border-bottom: 1px solid #D499B9; }
 
 /*---Page Controls---*/
 page {
   display: none; }
 
-navbar .navbar {
-  background-color: #011638;
-  border-color: #011638;
-  border-radius: 0px; }
-  navbar .navbar .navbar-brand {
-    font-size: 40px;
-    color: white; }
-  navbar .navbar .navbar-header {
-    font-size: 24px; }
-    navbar .navbar .navbar-header a {
-      color: white;
-      text-shadow: 0px 5px 5px black; }
-    navbar .navbar .navbar-header a:hover {
-      color: #9055A2; }
-  navbar .navbar .navbar-nav {
-    font-size: 24px; }
-    navbar .navbar .navbar-nav a {
-      color: white;
-      text-shadow: 0px 5px 5px black; }
-    navbar .navbar .navbar-nav a:hover {
-      color: #9055A2; }
-    navbar .navbar .navbar-nav .active a {
-      background-color: white;
-      color: #9055A2;
-      text-shadow: none; }
-    navbar .navbar .navbar-nav .active a:hover {
-      color: #9055A2;
-      background-color: white; }
+content h1, content h2, content h3, content h4, content h5 {
+  font-family: roboto-regular;
+  color: #2E294E;
+  text-decoration: underline; }
+content article {
+  background-color: white; }
+content figure {
+  background-color: #FFE6F4; }
+  content figure figcaption {
+    font-family: roboto-regular;
+    color: #011638;
+    font-size: 16px; }
+content p {
+  font-size: 16px;
+  color: #2E294E;
+  font-family: roboto-regular; }

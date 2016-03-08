@@ -2,9 +2,12 @@
 /*--measurements--*/
 /*--fonts--*/
 @font-face {
-  font-family: HelloGoodbye;
-  src: url("/resources/fonts/hellogoodbye.otf") format("opentype");
-  font-weight: 900; }
+  font-family: Roboto-Regular;
+  src: url("/resources/fonts/Roboto-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("/resources/fonts/Roboto-Thin.ttf") format("truetype"); }
+/*---Margins---*/
 .margin-none {
   margin: 0px; }
 
@@ -20,6 +23,7 @@
 .margin-bottom, .margin-slates, .margin {
   margin-bottom: 15px; }
 
+/*---Padding---*/
 .padding-none {
   padding: 0px; }
 
@@ -35,33 +39,19 @@
 .padding-bottom, .padding-slates, .padding {
   padding-bottom: 15px; }
 
-.border, .border-sides, .border-left, .border-right, .border-slates, .border-top, .border-bottom {
-  border: 1px solid #f1f1f1; }
+/*---Borders---*/
+.border-left, .border-sides, .border {
+  border-left: 1px solid #D499B9; }
 
-.border-sides, .border-left, .border-right {
-  border-top: none;
-  border-bottom: none; }
+.border-right, .border-sides, .border {
+  border-right: 1px solid #D499B9; }
 
-.border-slates, .border-top, .border-bottom {
-  border-left: none;
-  border-right: none; }
+.border-top, .border-slates, .border {
+  border-top: 1px solid #D499B9; }
 
-.border-left {
-  border-right: none; }
+.border-bottom, .border-slates, .border {
+  border-bottom: 1px solid #D499B9; }
 
-.border-right {
-  border-left: none; }
-
-.border-top {
-  border-bottom: none; }
-
-.border-bottom {
-  border-top: none; }
-
+/*---Page Controls---*/
 page {
   display: none; }
-
-carousel header {
-  box-shadow: 0px 0px 15px;
-  border-bottom: 5px black solid;
-  margin-bottom: 15px; }
